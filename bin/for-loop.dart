@@ -1,3 +1,5 @@
+///FOR LOOP-> Initialize->Condition->Increment/Decrement///
+
 main() {
   for (int i = 0; i < 10; i = i + 1) {
     print(i);

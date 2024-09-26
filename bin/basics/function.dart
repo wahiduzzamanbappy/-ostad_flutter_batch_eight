@@ -15,7 +15,6 @@ void welcomeMessage (String name) {
   print('How many times do you need?');
   print('What about evening');
   print('Let us know the time');
-  //print('Good Morning, $name');
 }
  int addTwoNumbers( int a, int b) {
     int result = a+b;

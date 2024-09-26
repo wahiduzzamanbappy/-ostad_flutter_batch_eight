@@ -1,6 +1,6 @@
 void main() {
   printMyName('Halim');
-  printMyName('Yousouf');
+  printMyName('Yousuf');
   int res = getResult(123, 23);
   print(res);
   getResult(12323, 34367, 98596);
@@ -19,4 +19,12 @@ int getResult(int a, int b, [int c = 0]) { // optional parameter
 
 void printMyName(String name) {
   print(name);
+}
+
+class Students {
+  Map<String, String> mymap = {
+    'name' : 'Bappy',
+    'address' : 'Dhaka',
+  };
+
 }

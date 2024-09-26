@@ -107,3 +107,26 @@ class BankAccount {
     return ((_balance / 100 ) * 8);
   }
 }
+
+
+
+class Human {
+  String name = '';
+  String Address = '';
+  late int age;
+
+
+  Human ({
+  required this.name,
+  required this.Address,
+  required this.age,
+  });
+
+
+String getName () {
+    return name;
+}
+String getAddress () {
+    return Address;
+}
+}
